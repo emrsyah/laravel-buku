@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('container')
-<div class="w-75 mt-4 border p-3 rounded">
+<div class="w-75 my-4 border p-3 rounded">
     <a href="/buku" class="btn-success btn mb-4 pr-4 fw-bold">
         <i class="bi bi-caret-left-fill"></i> Back
     </a>

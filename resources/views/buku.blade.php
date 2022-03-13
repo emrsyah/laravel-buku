@@ -2,7 +2,8 @@
 @section('container')
 
 @if (session('success'))
-<div class="alert-success flex justify-content-center align-items-center p-2 w-25 text-center rounded">
+<div class="position-fixed  m-2 alert-success fw-bold flex justify-content-center align-items-center p-2 w-10 text-center rounded"
+ style="top:10px; right:20px;">
     <p class="mb-0 ">{{session('success')}}</p>
 </div>
 @endif

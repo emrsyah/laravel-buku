@@ -15,7 +15,7 @@
     </style>
 </head>
 <body>
-    <div class="container mt-4" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <div class="container mt-4 position-relative" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
         @yield('container')
     </div>
     
