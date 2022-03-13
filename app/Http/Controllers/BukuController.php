@@ -15,7 +15,9 @@ class BukuController extends Controller
      */
     public function index()
     {
-        return view('buku');
+        $bukus = Buku::all();
+        return view("buku", ["bukus"=>$bukus]);
+        // return view('todo')->with('todos', "satu");
     }
 
     /**
