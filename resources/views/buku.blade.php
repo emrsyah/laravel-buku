@@ -51,7 +51,7 @@
                     </a>
                 </div>
                 <div class="col p-2">
-                    <a href="" class="btn btn-warning">
+                    <a href="buku/{{$buku->id}}/edit" class="btn btn-warning">
                     <i class="bi bi-pencil-square text-light"></i>
                     </a>
                 </div>
