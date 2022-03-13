@@ -2,7 +2,7 @@
 @section('container')
 
 
-<form action="{{url('buku')}}" method="post" class="mt-4  border py-2 px-4 rounded">
+<form action="{{url('buku')}}" method="post" class="mt-4  border py-2 px-4 rounded w-50">
     @csrf
     <h2 class="fw-bold mb-4 mt-2 text-center">Add Book</h2>
     <div class="my-2">
@@ -15,7 +15,7 @@
     </div>
     <div class="my-2">
         <p class="m-0">Sinopsis</p>
-        <textarea  required name="sinopsis" id="" cols="30" rows="4" class="border rounded" style="background-color: #F6F7F9;">
+        <textarea  required name="sinopsis" id="" cols="30" rows="4" class="border rounded w-100" style="background-color: #F6F7F9;">
 
         </textarea>
     </div>
