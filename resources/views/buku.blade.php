@@ -21,7 +21,7 @@
     <h1 class="text-center fw-bold mb-4 text-info">Book List</h1>
     <!-- Bawa ini button tambah -->
     <div class="mb-2">
-        <a href="" class="btn btn-success d-flex align-items-center justify-content-center"><span class="fw-bold pr-4">Tambah</span> <i class="bi bi-plus"></i></a>
+        <a href="buku/create" class="btn btn-success d-flex align-items-center justify-content-center"><span class="fw-bold pr-4">Tambah</span> <i class="bi bi-plus"></i></a>
     </div>
 
     <!-- Bawah ini list -->

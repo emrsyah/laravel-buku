@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('judul');
             $table->string('author');
-            $table->string('sinopsis');
+            $table->mediumText('sinopsis');
             $table->string('penerbit');
             $table->timestamps();
         });

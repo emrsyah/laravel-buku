@@ -27,7 +27,7 @@ class BukuController extends Controller
      */
     public function create()
     {
-        return view('buku');
+        return view('tambah');
     }
 
     /**
@@ -38,7 +38,17 @@ class BukuController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'judul' => 'required',
+            'author' => 'required',
+            'sinopsis' => 'required',
+            'penerbit' => 'required',
+        ]);
+
+        $input = $request->all();
+        $buku = Buku::create($input);
+
+        return redirect('/buku')->with('success', 'Berhasil menambah buku');
     }
 
     /**
@@ -85,4 +95,5 @@ class BukuController extends Controller
     {
         //
     }
+
 }

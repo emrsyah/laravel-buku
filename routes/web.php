@@ -14,12 +14,6 @@ use App\Http\Controllers\BukuController;
 |
 */
 
-Route::get('/', function () {
-    return view('buku');
-});
+Route::redirect('/', '/buku');
 
 Route::resource('buku', BukuController::class);
-
-Route::get('/buku/tambah', function(){
-    return view('tambah');
-});
