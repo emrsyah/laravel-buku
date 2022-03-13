@@ -46,7 +46,7 @@
             <p style="width: 150px; margin:0;" class="text-truncate">{{$buku->penerbit}}</p>
             <div class="row d-flex flex-row" style="width: 200px;">
                 <div class="col p-2">
-                    <a href="" class="btn btn-primary">
+                    <a href="buku/{{$buku->id}}" class="btn btn-primary">
                     <i class="bi bi-three-dots"></i>
                     </a>
                 </div>

@@ -59,7 +59,8 @@ class BukuController extends Controller
      */
     public function show($id)
     {
-        //
+        $buku = Buku::findOrFail($id);
+        return view('detail', ['buku'=>$buku]);
     }
 
     /**
