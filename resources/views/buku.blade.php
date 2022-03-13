@@ -2,8 +2,8 @@
 @section('container')
 
 @if (session('success'))
-<div class="alert-success">
-    <p>{{session('success')}}</p>
+<div class="alert-success flex justify-content-center align-items-center p-2 w-25 text-center rounded">
+    <p class="mb-0 ">{{session('success')}}</p>
 </div>
 @endif
 
@@ -56,7 +56,7 @@
                     </a>
                 </div>
                 <div class="col p-2">
-                    <form action='' method="post">
+                    <form action='{{url("buku", $buku->id)}}' method="post">
                         @csrf
                         @method('Delete')
                         <button class="btn btn-danger">
