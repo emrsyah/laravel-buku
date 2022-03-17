@@ -9,7 +9,8 @@
 @endif
 
 @if($errors->any())
-<div class="alert-danger">
+<div class="alert-danger position-fixed  m-2 fw-bold flex justify-content-center align-items-center p-2 w-10 text-center rounded"
+style="top:10px; right:20px;">
     <ul>
         @foreach ($errors->all() as $error)
         <li>{{$error}}</li>

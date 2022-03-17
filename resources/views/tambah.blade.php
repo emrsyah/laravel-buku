@@ -15,9 +15,7 @@
     </div>
     <div class="my-2">
         <p class="m-0">Sinopsis</p>
-        <textarea  required name="sinopsis" id="" cols="30" rows="4" class="border rounded w-100" style="background-color: #F6F7F9;">
-
-        </textarea>
+        <textarea  required name="sinopsis" id="" cols="30" rows="4" class="border rounded w-100" style="background-color: #F6F7F9;"></textarea>
     </div>
     <div class="my-2">
         <p class="m-0">Penerbit</p>
